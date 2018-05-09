@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    }
+  }
+}

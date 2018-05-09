@@ -1,0 +1,4 @@
+#Tue May 08 22:34:43 CLST 2018
+base.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
