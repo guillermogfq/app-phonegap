@@ -18,12 +18,27 @@
 <body>
     <div id="app">
       <div class="statusbar"></div>
+      <div class="panel panel-left panel-cover">
+        <div class="block">
+          <p>SmartApp Panel</p>
+          <div class="card demo-facebook-card">
+            <div class="card-header">
+              <div class="demo-facebook-avatar"><img src="http://lorempixel.com/68/68/people/1/" width="34" height="34"/></div>
+              <div id="nombre" class="demo-facebook-name">Insertar nombre Aqui</div>
+              <div id="email" class="demo-facebook-date">correo@correo.cl</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="view view-main">
         <div data-name="home" class="page">
 
           <!-- Top Navbar -->
           <div class="navbar">
             <div class="navbar-inner">
+              <div class="left">
+                <a class="panel-open"><i class="f7-icons">bars</i></a>
+              </div>
               <div class="title">SmartApp</div>
             </div>
           </div>
@@ -31,17 +46,18 @@
           <!-- Toolbar -->
           <div class="toolbar">
             <div class="toolbar-inner">
-              <!-- Toolbar links -->
-              <a href="#" class="link">Link 1</a>
-              <a href="#" class="link">Link 2</a>
+
             </div>
           </div>
 
           <!-- Scrollable page content -->
           <div class="page-content">
-            <p>Page content goes here</p>
-            <!-- Link to another page -->
-            <a href="/about/">About app</a>
+            <img id="foto" src="none" width="100%" height="80%" />
+            <div ="block">
+              <div ="row">
+                <button id="tomar-foto" class="button">Tomar Foto</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

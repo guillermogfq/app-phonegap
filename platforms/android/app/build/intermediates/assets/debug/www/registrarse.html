@@ -5,8 +5,7 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; " />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#2196f3">
     <link rel="stylesheet" type="text/css" href="css/framework7.min.css" />
@@ -33,16 +32,96 @@
               <div class="title">Registrarse</div>
             </div>
           </div>
-
-          <!-- Toolbar -->
-          <div class="toolbar">
-            <div class="toolbar-inner">
-
-            </div>
-          </div>
-
           <!-- Scrollable page content -->
           <div class="page-content">
+            <div class="block-title">Ingresas los datos solicitados</div>
+            <div class="list no-hairlines-md">
+              <ul>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">person</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">Nombre</div>
+                    <div class="item-input-wrap">
+                      <input id="name" type="text" placeholder="Tu nombre" required validate>
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Este campo es requerido.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">person</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">Apellido</div>
+                    <div class="item-input-wrap">
+                      <input id="lastname" type="text" placeholder="Tu apellido" required validate>
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Este campo es requerido.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">person</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">RUN</div>
+                    <div class="item-input-wrap">
+                      <input id="run" type="text" placeholder="Ingresa tu RUN" required validate pattern="^((\d{1,2})\.(\d{3})\.(\d{3})-[\dkK]{1})$" data-error-message="Formato incorrecto">
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Ejm: 10.000.000-K</div>
+                    </div>
+                  </div>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">email</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">E-mail</div>
+                    <div class="item-input-wrap">
+                      <input id="email" type="email" placeholder="Tu e-mail" required validate>
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Este campo es requerido.</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">star</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">Nombre de Usuario</div>
+                    <div class="item-input-wrap">
+                      <input id="nickname" type="text" placeholder="Ingresa tu nombre de usuario" required validate pattern="[a-zA-Z0-9-_]{5,}" data-error-message="Mínimo 5 carácteres">
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Este campo es requerido (permitido el uso de - y _).</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input item-input-with-info">
+                  <div class="item-media">
+                    <i class="f7-icons">lock</i>
+                  </div>
+                  <div class="item-inner">
+                    <div class="item-title item-label">Contraseña</div>
+                    <div class="item-input-wrap">
+                      <input id="password" type="password" placeholder="Ingresa tu contraseña" required validate pattern="[a-zA-Z0-9]*" data-error-message="Sólo letras y números">
+                      <span class="input-clear-button"></span>
+                      <div class="item-input-info">Este campo es requerido.</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="block">
+              <div class="row">
+                <button id="registar-user" class="col button button-fill">Registrar Usuario</button>
+              </div>
+            </div>
 
           </div>
         </div>
