@@ -39,6 +39,12 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
     }
   },
   "dependent_plugins": {

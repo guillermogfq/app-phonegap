@@ -60,6 +60,12 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "cl.ubiobio.smartapp"
     }
   },
   "dependent_plugins": {},
@@ -497,6 +503,8 @@
     "cordova-plugin-inappbrowser": "1.7.2",
     "cordova-plugin-network-information": "1.3.4",
     "cordova-plugin-vibration": "2.1.6",
-    "cordova-plugin-splashscreen": "5.0.2"
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-console": "1.1.0",
+    "cordova-plugin-whitelist": "1.3.3"
   }
 }

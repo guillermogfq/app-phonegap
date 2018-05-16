@@ -1,4 +1,19 @@
-#Wed May 09 11:51:02 CLST 2018
-base.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue May 15 21:16:35 CLT 2018
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+base.5=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/13
+base.4=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/14
+base.3=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/15
+base.2=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/12
+base.1=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/16
+base.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/17
+file.5=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/13/classes.dex
+file.4=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/14/classes.dex
+file.3=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/15/classes.dex
+file.2=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/12/classes.dex
+file.1=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex
+file.0=/Users/guillermofuentesquijada/Desktop/laboratorio/platforms/android/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex

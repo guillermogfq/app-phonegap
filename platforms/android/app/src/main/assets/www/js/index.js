@@ -17,18 +17,24 @@ var mainView = app.views.create('.view-main');
 $$(document).on("deviceready", init_html);
 
 function init_html(){
-  switch (document.location.pathname) {
-    case "/":
+  var path = document.location.pathname;
+  path = path.split("/")[path.split("/").length - 1];
+  console.log(path);
+  switch (path) {
+    case "":
       login();
       break;
-    case "/registrarse.html":
+    case "index.html":
+      login();
+      break;
+    case "registrarse.html":
       registrarse();
       break;
-    case "/main.html":
+    case "main.html":
       main();
       break;
     default:
-      console.log(error);
+      console.log("error");
       break;
   }
 }
@@ -61,7 +67,7 @@ function goToRegistrarse(){
 
 function goToLogin(){
   console.log("go");
-  document.location = "/";
+  document.location = "index.html";
 }
 
 function tomarFoto(){
@@ -107,7 +113,7 @@ function registerUser(){
       app.dialog.close();
       if(data.resp){
         app.dialog.confirm(data.info,"SmartApp", function () {
-          document.location = "/";
+          document.location = "index.html";
         });
       }else{
         app.dialog.alert(data.info, "SmartApp");
